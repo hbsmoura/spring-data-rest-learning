@@ -9,5 +9,10 @@ spring:
     defer-datasource-initialization: true
   h2:
     console.enabled: true
+  data:
+    rest:
+      base-path: /api
+      default-page-size: 3
+      max-page-size: 10
 
 
