@@ -17,5 +17,9 @@ spring:
       base-path: /api
       default-page-size: 3
       max-page-size: 10
+  devtools:
+    remote:
+      secret: ab12cd34
+
 
 
